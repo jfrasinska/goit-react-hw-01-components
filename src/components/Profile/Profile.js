@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Profile.css';
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   const { followers, views, likes } = stats;
@@ -14,15 +15,15 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
       </div>
 
       <ul className="stats">
-        <li>
+        <li className="stats-card">
           <span className="label">Followers</span>
           <span className="quantity">{followers}</span>
         </li>
-        <li>
+        <li className="stats-card">
           <span className="label">Views</span>
           <span className="quantity">{views}</span>
         </li>
-        <li>
+        <li className="stats-card">
           <span className="label">Likes</span>
           <span className="quantity">{likes}</span>
         </li>

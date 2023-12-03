@@ -1,0 +1,13 @@
+.transaction-history {
+  margin-left: 40px;
+  width: 500px;
+  background-color: #e8ecf9;
+}
+.transaction-header {
+  text-align: left;
+  background-color: #95abde;
+}
+.transaction-cell {
+  border: 0.5px solid #9d9ea2;
+  padding: 10px 0 10px 0;
+}

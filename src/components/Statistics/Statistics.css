@@ -1,0 +1,24 @@
+.statistics {
+  background-color: #e8c0eb;
+  max-width: 500px;
+  max-height: 150px;
+  color: #fff;
+  margin-left: 40px;
+}
+.title {
+  padding-top: 15px;
+  text-align: center;
+}
+.stat-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0;
+}
+.item {
+  padding: 12px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
